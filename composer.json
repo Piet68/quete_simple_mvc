@@ -1,0 +1,16 @@
+{
+    "name": "wilder/mvc",
+    "authors": [
+        {
+            "name": "Piet68",
+            "email": "peter.kallabis@neuf.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "":"src/"
+        }
+    }
+
+}
+

@@ -6,10 +6,19 @@
  * Time: 16:29
  */
 
-// src/Controller/ItemController.php
-require __DIR__ . '/../Model/ItemManager.php';
+namespace Controller;
 
-$items = selectAllItems();
+use Model;
+
+class ItemController{
+    public function index(){
+
+    }
+}
+
+$itemManager = new Model\ItemManager();
+
+$items = $itemManager->selectAllItems();
 
 require __DIR__ . '/../View/item.php';
 ?>
